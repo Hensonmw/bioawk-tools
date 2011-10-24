@@ -1,9 +1,13 @@
 #
 # converts a GFF file to BED format
 #
+# usage:
+#
+# $ awk -f gff2bed.awk input.gff > output.bed
+#
 
-# splitting character is the tab
 BEGIN {
+    # splitting character is the tab
     FS = OFS = "\t"
 }
 

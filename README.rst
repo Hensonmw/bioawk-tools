@@ -1,7 +1,7 @@
 BioAwk
 ======
 
-Awk based scripts for bioinformatics.
+Awk based utility scripts for bioinformatics.
 
 Consult the source of each script for documentation (usage, parameters etc).
 
