@@ -5,7 +5,7 @@ Awk based utility scripts for bioinformatics.
 
 Consult the source of each script for documentation (usage, parameters etc).
 
-.. tip: adding the source directory as the value of the AWKPATH variable allows you 
+.. note:: adding the source directory as the value of the AWKPATH variable allows you 
    to run each program file without having to list the full path to it
 
 SAM
