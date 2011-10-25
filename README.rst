@@ -23,3 +23,8 @@ Fasta
 -----
 
   * splitfasta.awk - splits a fasta file into smaller files
+
+Fastq
+-----
+
+  * randpair.sh - selects random pairs from two fastq files
