@@ -17,8 +17,15 @@
 # Outputs the shift and number of matching reads
 #
 #
-# The script should run on a sam file that contains mostly locations
+# The script should run on a BED file that contains mostly locations
 # where binding is expected to occur 
+#
+# A possible run that would test a range of shifts of 20, 25, 30 to 200
+# would look like:
+#
+# $ for i in $(seq 20 5 200); do awk -v shift=$i -f chipfrag.awk long.bed; done
+#
+# The line with the largest count indicates the most likely fragment size
 #
 BEGIN { 
 	FS = OFS = "\t"
