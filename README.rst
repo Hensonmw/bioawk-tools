@@ -5,13 +5,20 @@ Awk based utility scripts for bioinformatics.
 
 Consult the source of each script for documentation (usage, parameters etc).
 
-.. note:: adding the source directory as the value of the AWKPATH variable allows you 
-   to run each program file without having to list the full path to it
+**Tip**: Adding the source directory as the value of the AWKPATH variable allows you
+to run each program file without having to list the full path to it
+
+Some tools may require the GNU Coreutils to be present.
+MacOS X users should install homebrew: http://mxcl.github.com/homebrew/ then
+use it install the GNU Coreutils::
+
+    brew install coreutils
 
 SAM
 ---
 
   * sam2wig.awk - converts the samtools pileup format to wiggle
+  * chipfrag.awk - chipseq fragment size estimator
   
 Interval
 --------
