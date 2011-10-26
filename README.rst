@@ -18,14 +18,14 @@ SAM
 ---
 
   * sam2wig.awk - converts the samtools pileup format to wiggle
-  * chipfrag.awk - chipseq fragment size estimator
   
 Interval
 --------
 
   * gff2bed.awk - converts GFF to BED format
   * bed2gff.awk - converts BED to GFF
-  
+  * chipfrag.awk - chipseq fragment size estimator based on a BED file
+ 
 Fasta
 -----
 
