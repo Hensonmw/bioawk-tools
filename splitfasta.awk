@@ -26,6 +26,9 @@ BEGIN {
 	count = 0
 }
 
+# skip empty lines at the beginning
+/^$/ { next; }
+ 
 # act on fasta header
 /^>/ {
 	if (count % N == 0) {
