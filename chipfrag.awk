@@ -66,8 +66,6 @@ END {
 	for (key in fwd) {
 		sum = sum + rev[key]
 	}
-	# prints the shift, the real shift factoring in 
-	# the read lenght (assumes all reads have the same lenght)
-	# and the sum of element
+	# prints the shift and the number of matches
 	print shift, sum
 }
