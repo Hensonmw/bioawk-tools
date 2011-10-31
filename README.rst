@@ -14,7 +14,7 @@ use it install the GNU Coreutils::
 
     brew install coreutils
 
-.. _chipfrag.awk: doc/chipfrag.rst
+.. _chipfrag.awk: https://github.com/ialbert/bioawk/blob/master/doc/chipfrag.rst
 
 SAM
 ---
