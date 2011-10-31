@@ -14,6 +14,8 @@ use it install the GNU Coreutils::
 
     brew install coreutils
 
+.. _chipfrag.awk: doc/chipfrag.rst
+
 SAM
 ---
 
@@ -24,7 +26,7 @@ Interval
 
   * gff2bed.awk - converts GFF to BED format
   * bed2gff.awk - converts BED to GFF
-  * chipfrag.awk - chipseq fragment size estimator based on a BED file
+  * `chipfrag.awk`_ - chipseq fragment size estimator based on a BED file
   * profile.awk - generates a profile from a windowBed output file
  
 Fasta
