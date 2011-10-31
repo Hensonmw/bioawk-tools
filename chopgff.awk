@@ -2,15 +2,15 @@
 # Generates one based intervals for starts/end for features starts/ends stored
 # in a BED or GFF file
 #
+# The opposite of the the slopBed tool does in bedtools package.
+#
 # usage:
 #
-# $ awk -f chopbed.awk data.bed > start.bed
+# $ awk -f chopgff.awk data.gff > start.gff
 #
 # with parameters:
 #
-# $ awk -v format=gff -v anchor=end data.gff > ends.gff
-#
-#  (the opposite of the the slopBed tool does in bedtools package)
+# $ awk -v format=bed -v anchor=end -f chopgff.awk data.bed > ends.bed
 #
 BEGIN {
 	# the format of the file bed or gff
