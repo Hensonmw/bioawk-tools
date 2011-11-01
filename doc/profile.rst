@@ -20,4 +20,5 @@ Or with paramters::
 
 An output relative to gene starts could be:
 
-.. image:: read-density.png
+.. image:: https://github.com/ialbert/bioawk/blob/master/doc/read-density.png
+
