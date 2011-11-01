@@ -45,6 +45,11 @@ BEGIN {
     # compute the difference between midpoints
     pos = m1 - m2
     
+    # the second feature is on the opposite strand, revert distances
+    if ($16 == "-") {
+        pos = -pos
+    }
+
     # increment the array at that position
     values[pos]++   
 }

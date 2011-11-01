@@ -13,7 +13,7 @@
 # Note:
 #
 # When using a Mac you will need the coreutils to be installed.
-# See main document on details, with homewbrew it would be:
+# See main document on details, with homebrew it would be:
 #
 #       brew install coreutils
 #
