@@ -30,6 +30,9 @@
 BEGIN { 
 	FS = OFS = "\t"
 
+	# fudge window larger numbers give a smoother plot
+	if(!window || window < 0) window = 2
+
 	# get maxsize as a power of 10
 	if(!pow) pow = 5 
 	
@@ -47,12 +50,11 @@ BEGIN {
 		fwd[$2 + shift]++
 	} else { 
 		# negative strand
-		rev[$3]++
-		
 		# give it more opportunities to match
-		# when in close by
-		rev[$3 + 1]++
-		rev[$3 - 1]++
+		# when inside window
+		for(w=-window; w <= window; w+=1) {
+			rev[$3 + w]++
+		}
 	} 
 
 	if (NR > max) {
