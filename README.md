@@ -14,10 +14,6 @@ use it install the GNU Coreutils::
 
     brew install coreutils
 
-.. _chipfrag.awk: https://github.com/ialbert/bioawk/blob/master/doc/chipfrag.rst
-.. _chopgff.awk: https://github.com/ialbert/bioawk/blob/master/doc/chopgff.rst
-.. _profile.awk: https://github.com/ialbert/bioawk/blob/master/doc/profile.rst
-
 SAM
 ---
 
@@ -28,10 +24,10 @@ Interval
 
   * gff2bed.awk - converts GFF to BED format
   * bed2gff.awk - converts BED to GFF
-  * `chipfrag.awk`_ - chipseq fragment size estimator based on a BED file
-  * `chopgff.awk`_ - generates a one base long interval at the 5' or 3' of the feature
-  * `profile.awk`_ - generates a profile from a windowBed output file
- 
+  * chipfrag.awk - chipseq fragment size estimator based on a BED file
+  * chopgff.awk - generates a one base long interval at the 5' or 3' of the feature
+  * profile.awk - generates a profile from a windowBed output file
+
 Fasta
 -----
 
